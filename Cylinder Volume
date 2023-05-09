@@ -1,0 +1,26 @@
+/**
+ *
+ * @author 488701
+ */
+import java.util.Scanner;
+
+public class CylinderVolumeHarris {
+    public static void main(String[] args){
+    Scanner keyboard = new Scanner(System.in);
+       
+       //get radius
+       System.out.print("What is the radius of the cylinder? ");
+       double radius = keyboard.nextDouble();
+       
+       //get hight
+       System.out.print("What is the hight of your cylinder? ");
+       double height = keyboard.nextDouble();
+       
+       double volume = Math.PI * Math.pow(radius, 2.0) * height;
+       System.out.printf("The volume is %.2f", volume);
+       
+       
+       
+    }
+    
+}
