@@ -1,7 +1,7 @@
 /** AirPollutionIndex.java average five air pollution readings.
  */
 import java.util.Scanner;
-public class AirPollutionHarris {
+public class AirPollution {
    
      
         public static void main(String[] args) {
