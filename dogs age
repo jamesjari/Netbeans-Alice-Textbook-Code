@@ -1,0 +1,21 @@
+/**
+ *
+ * @author 488701
+ */
+import java.util.Scanner;
+
+public class HarrisDogAge {
+    public static void main(String[] args) {
+    Scanner keyboard = new Scanner(System.in); 
+    
+     System.out.print("Enter your age");
+      Integer Age = keyboard.nextInt();
+      
+      Integer DogAge = Age*7;
+      
+      System.out.print("Your are " + DogAge + " In Dog years");
+    } 
+    
+   
+    
+}
