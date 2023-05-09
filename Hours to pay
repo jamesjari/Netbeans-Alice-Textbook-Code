@@ -1,0 +1,21 @@
+/**
+ *
+ * @author 488701
+ */
+import java.util.Scanner;
+
+public class HourtoPay {
+    public static void main (String[] args) {
+    Scanner keyboard = new Scanner (System.in);
+    
+    System.out.print("Enter Your Hours: ");
+    double hour1 = keyboard.nextDouble();
+    
+    System.out.print("Enter Your Rate: ");
+    double rate1 = keyboard.nextDouble();
+   
+    double wage = (hour1 * rate1);
+    System.out.printf(" Your pay is: $%7.2f" ,wage);
+    }
+   
+}
