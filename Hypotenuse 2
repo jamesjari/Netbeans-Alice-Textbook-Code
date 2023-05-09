@@ -1,0 +1,22 @@
+/**
+ *
+ * @author 488701
+ */
+import java.util.Scanner;
+
+public class Hyporenuse2 {
+    public static void main(String[] args){
+        Scanner keyboard = new Scanner(System.in);
+        
+        //collect info
+        System.out.print("what is the length of the Leg A? ");
+        double Leg1 = keyboard.nextDouble();
+        System.out.print("What is the length of Leg B? ");
+        double Leg2 = keyboard.nextDouble();
+        
+        //display answer
+        double Hypotenuse = Math.sqrt(Math.pow(Leg1,2)+ Math.pow(Leg2,2));
+        System.out.printf("%nThe hypotenuse is: %.2f", Hypotenuse);
+    }
+    
+}
