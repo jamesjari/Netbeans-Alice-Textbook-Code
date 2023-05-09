@@ -1,0 +1,23 @@
+/**
+ *
+ * @author 488701
+ */ import java.util.Scanner;
+ 
+public class Hypotenuse1 {
+    public static void main (String[] args){
+    Scanner keyboard = new Scanner(System.in);
+    
+    //collect valuses
+    System.out.print("What is the length of the leg 1? ");
+    double LegA = keyboard.nextDouble();
+    System.out.print("What is the length of leg 2? ");
+    double LegB = keyboard.nextDouble();
+   
+    //collect & display answer
+    double Answer = Math.hypot(LegA,LegB);
+    System.out.printf("%nThe Hypotenuse is: %.2f", Answer);
+    
+    
+        
+    }    
+}
