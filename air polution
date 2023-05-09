@@ -1,0 +1,21 @@
+/** AirPollutionIndex.java average five air pollution readings.
+ */
+import java.util.Scanner;
+public class AirPollutionHarris {
+   
+     
+        public static void main(String[] args) {
+            final int NUM_READINGS = 5;
+            double sum = 0.0;
+            Scanner keyboard = new Scanner(System.in);
+            System.out.println("To compute the air pollutions index...");
+            for (int count = 1; count <= NUM_READINGS; count++) {
+                System.out.print("enter reding #" + count +
+                        " of " + NUM_READINGS + ": " );
+                double reading = keyboard.nextDouble();
+                sum += reading;
+            }
+            double pollutionAverage = sum / NUM_READINGS;
+            System.out.printf("The average is %.3f", pollutionAverage);
+          }
+    }
