@@ -1,0 +1,29 @@
+/**
+ * ...
+ */
+public class HokeyPokeyGetVerse {
+    public static void main(String[] args) {
+        System.out.println( getVerse("right foot") + "\n"
+                          + getVerse("left foot") + "\n"
+                          + getVerse("right hand") + "\n"
+                          + getVerse("left hand") + "\n"
+                          + getVerse("nose") + "\n"
+                          + getVerse("backside") + "\n"
+                          + getVerse("head") + "\n"
+                          + getVerse("whole self") );
+    }
+    /** build a verse of the Hokey Pokey song for a given body
+     * part.
+     * * @param badyPart, a String
+     * @return a verse of the Hokey Pokey song for bodyPart
+     */
+    public static String getVerse(String bodyPart) {
+      return "You put your " + bodyPart + " in,\n"
+              + "you put your " + bodyPart + " out; \n"
+              + "you put your " + bodyPart + " in, \n"
+              + "and you shake it all about. \n"
+              + "You do the Hokey Pokey,\n"
+              + "and you turn yourself around.\n"
+              + "That's what it's all about.\n";
+    } 
+}
